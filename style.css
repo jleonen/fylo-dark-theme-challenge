@@ -87,6 +87,7 @@ p {
   grid-template-columns: 1fr 1fr;
   row-gap: 85px;
   margin-bottom: 130px;
+  column-gap: 200px;
 }
 
 .feature {
@@ -101,7 +102,17 @@ p {
 }
 
 .feature p {
-  width: 300px;
+  width: 310px;
   text-align: center;
   margin-top: 0px;
+}
+
+.feature-access,
+.feature-collab {
+  justify-self: flex-end;
+}
+
+.feature-security,
+.feature-storage {
+  justify-self: flex-start;
 }
