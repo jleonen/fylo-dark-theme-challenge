@@ -1,3 +1,5 @@
+@import url("https://fonts.google.com/specimen/Raleway");
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,3 +7,42 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  background-color: hsl(218, 28%, 13%);
+}
+
+li {
+  color: hsla(0, 0%, 100%, 0.705);
+}
+
+h1,
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+  font-family: Raleway;
+  color: hsl(0, 0%, 100%);
+}
+
+.nav-items a {
+  color: hsla(0, 0%, 100%, 0.705);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* .nav-item:link,
+.nav-item:visited {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  display: inline-block;
+} */
