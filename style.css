@@ -73,10 +73,35 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 180px;
 }
 
 .heading-info {
   text-align: center;
   width: 500px;
   line-height: 1.5;
+}
+
+.feature-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 85px;
+  margin-bottom: 130px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature h2 {
+  margin-bottom: 10px;
+}
+
+.feature p {
+  width: 300px;
+  text-align: center;
+  margin-top: 0px;
 }
