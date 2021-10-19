@@ -58,7 +58,8 @@ blockquote {
 /* INTRO */
 .started-btn {
   /* background-color: aqua; */
-  background-image: linear-gradient(aqua, rgba(27, 114, 114, 0.904));
+  /* background-image: linear-gradient(aqua, rgba(27, 114, 114, 0.904)); */
+  background-color: hsl(198, 60%, 50%);
   padding: 10px 70px;
   border-radius: 20px;
   color: white;
@@ -69,7 +70,8 @@ blockquote {
 }
 
 .started-btn:hover {
-  background-image: linear-gradient(aqua, rgba(82, 238, 238, 0.904));
+  /* background-image: linear-gradient(aqua, rgba(82, 238, 238, 0.904)); */
+  background-color: hsl(176, 68%, 64%);
 }
 
 .heading {
@@ -203,6 +205,7 @@ blockquote {
   /* background-image: url("images/bg-quotes.png"); */
   background-repeat: no-repeat;
   position: relative;
+  background-color: hsl(176, 68%, 64%);
 }
 
 /* .testimonial::before {
