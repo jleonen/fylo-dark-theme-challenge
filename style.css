@@ -21,6 +21,7 @@ p {
   color: hsla(0, 0%, 100%, 0.705);
 }
 
+/* NAVIGATION */
 .navi {
   display: flex;
   justify-content: space-between;
@@ -52,6 +53,7 @@ p {
   display: inline-block;
 } */
 
+/* INTRO */
 .started-btn {
   /* background-color: aqua; */
   background-image: linear-gradient(aqua, rgba(27, 114, 114, 0.904));
@@ -82,6 +84,7 @@ p {
   line-height: 1.5;
 }
 
+/* FEATURES SECTION */
 .feature-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -115,4 +118,41 @@ p {
 .feature-security,
 .feature-storage {
   justify-self: flex-start;
+}
+
+/* SUMMARY */
+.summary {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary a {
+  color: aqua;
+}
+
+.productive {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  justify-content: center;
+}
+
+.summary h2 {
+  font-weight: 700;
+  font-size: 35px;
+  width: 270px;
+  margin-bottom: 0px;
+}
+
+.summary p {
+  width: 500px;
+  line-height: 1.5;
+}
+
+.summary a img {
+  width: 20px;
+}
+
+.summary a:hover {
+  color: white;
 }
