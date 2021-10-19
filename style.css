@@ -142,7 +142,8 @@ blockquote {
   margin-bottom: 135px;
 }
 
-.summary h2 {
+.summary h2,
+.cta h2 {
   font-weight: 700;
   font-size: 35px;
   width: 270px;
@@ -202,10 +203,8 @@ blockquote {
   gap: 40px;
   height: 200px;
   margin-bottom: 135px;
-  /* background-image: url("images/bg-quotes.png"); */
   background-repeat: no-repeat;
   position: relative;
-  background-color: hsl(176, 68%, 64%);
 }
 
 /* .testimonial::before {
@@ -220,4 +219,55 @@ blockquote {
   left: 340px;
   bottom: 190px;
   z-index: -1;
+}
+
+/* Call to Action */
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(217, 28%, 15%);
+  width: 800px;
+  height: 230px;
+}
+
+.input-field {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.input-field button {
+  margin-top: 0;
+}
+
+.input-field input {
+  border-radius: 20px;
+  width: 450px;
+  height: 35px;
+}
+
+.cta p {
+  width: 600px;
+  text-align: center;
+}
+
+.cta h2 {
+  width: 350px;
+  font-family: Raleway;
+}
+
+.cta-button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+::placeholder {
+  color: grey;
 }
