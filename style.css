@@ -226,6 +226,7 @@ blockquote {
 .cta-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 300px;
 }
 
 .cta {
@@ -275,19 +276,27 @@ blockquote {
 /* Footer */
 .info {
   display: flex;
-  gap: 10px;
+  gap: 25px;
+}
+
+.info p {
+  width: 300px;
+  margin-top: 0px;
 }
 
 .logo-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 35px;
 }
 
 .contacts {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 150px;
+  column-gap: 20px;
+  margin-bottom: auto;
 }
 
 .contacts p {
@@ -298,6 +307,19 @@ blockquote {
   display: grid;
   grid-template-columns: 1fr 1fr;
   list-style: none;
+  column-gap: 65px;
+  gap: 32px;
+}
+
+.nav-items li a {
+  color: rgba(255, 255, 255, 0.493);
+  font-weight: 500;
+}
+
+.nav-items li a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .fa-facebook,
@@ -307,4 +329,10 @@ blockquote {
   border: 1px solid white;
   border-radius: 50%;
   padding: 5px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
 }
