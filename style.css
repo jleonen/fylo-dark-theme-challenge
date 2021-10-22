@@ -226,7 +226,6 @@ blockquote {
 .cta-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 300px;
 }
 
 .cta {
@@ -335,6 +334,8 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  background-color: hsl(216, 53%, 9%);
+  padding-top: 100px;
 }
 
 .footer-logo {
@@ -345,7 +346,7 @@ blockquote {
 .footer-info {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .social-icons span {
