@@ -335,7 +335,11 @@ blockquote {
   flex-direction: column;
   gap: 40px;
   background-color: hsl(216, 53%, 9%);
-  padding-top: 100px;
+  padding-top: 150px;
+  transform: translateY(-60px);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
 }
 
 .footer-logo {
