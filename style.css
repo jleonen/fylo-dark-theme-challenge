@@ -303,7 +303,7 @@ blockquote {
   margin-top: 0px;
 }
 
-.nav-items {
+.nav-items-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   list-style: none;
@@ -311,28 +311,53 @@ blockquote {
   gap: 32px;
 }
 
-.nav-items li a {
+.nav-items-list li a {
   color: rgba(255, 255, 255, 0.493);
   font-weight: 500;
 }
 
-.nav-items li a:hover {
+.nav-items-list li a:hover {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
-.fa-facebook,
+/* .fa-facebook,
 .fa-instagram,
 .fa-twitter {
   color: white;
   border: 1px solid white;
   border-radius: 50%;
   padding: 5px;
-}
+} */
 
 .footer-section {
   display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-logo {
+  margin-left: 230px;
+  width: 200px;
+}
+
+.footer-info {
+  display: flex;
   justify-content: space-evenly;
   margin-bottom: 100px;
+}
+
+.social-icons span {
+  margin-right: 5px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.social-icons span:hover {
+  border: 1px solid turquoise;
+  border-radius: 50%;
+  color: turquoise;
 }
